@@ -79,7 +79,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | M1.5 x 5 Self-tapping screw | Mostly used for screwing on the servo arms| $0.39 per screw, 10 screws | <a href="https://www.metricscrews.us/index.php?main_page=product_info&products_id=1044"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| M2 x 8 Screw | Mostly used for screwing in the servo motors | $0.82 per screw, 10 screws | <a href="https://accu-components.com/us/cap-head-screws/3954-SSCF-M2-8-A4?google_shopping=1&c=2"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
