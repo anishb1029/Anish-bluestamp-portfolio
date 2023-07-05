@@ -80,8 +80,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | M1.5 x 5 Self-tapping screw | Mostly used for screwing on the servo arms| $0.39 per screw, 10 screws | <a href="https://www.metricscrews.us/index.php?main_page=product_info&products_id=1044"> Link </a> |
 | M2 x 8 Screw | Mostly used for screwing in the servo motors | $0.82 per screw, 10 screws | <a href="https://accu-components.com/us/cap-head-screws/3954-SSCF-M2-8-A4?google_shopping=1&c=2"> Link </a> |
-| M2.5 x 12 Screw | Used for screwing in the Arduino UNO | $0.69 per screw, 6 screws | <a href=https://accu-components.com/us/cap-head-screws/3807-SSCF-M2-5-12-A2?google_shopping=1&c=2> Link </a> |
-| M3 x 10 | Used for screwing in plates | $0.59 per screw, 11 screws | <a href=https://accu-components.com/us/cap-head-screws/3819-SSCF-M3-10-A2?google_shopping=1&c=2> Link </a> |
+| M2.5 x 12 Screw | Used for screwing in the Arduino UNO | $0.69 per screw, 6 screws | <a href="https://accu-components.com/us/cap-head-screws/3807-SSCF-M2-5-12-A2?google_shopping=1&c=2"> Link </a> |
+| M3 x 10 | Used for screwing in plates | $0.59 per screw, 11 screws | <a href="https://accu-components.com/us/cap-head-screws/3819-SSCF-M3-10-A2?google_shopping=1&c=2"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
