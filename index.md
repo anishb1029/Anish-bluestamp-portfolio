@@ -82,6 +82,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 | M2 x 8 Screw | Mostly used for screwing in the servo motors | $0.82 per screw, 10 screws | <a href="https://accu-components.com/us/cap-head-screws/3954-SSCF-M2-8-A4?google_shopping=1&c=2"> Link </a> |
 | M2.5 x 12 Screw | Used for screwing in the Arduino UNO | $0.69 per screw, 6 screws | <a href="https://accu-components.com/us/cap-head-screws/3807-SSCF-M2-5-12-A2?google_shopping=1&c=2"> Link </a> |
 | M3 x 10 | Used for screwing in plates | $0.59 per screw, 11 screws | <a href="https://accu-components.com/us/cap-head-screws/3819-SSCF-M3-10-A2?google_shopping=1&c=2"> Link </a> |
+| M2 Self-locking Nut | Used for securing servo motors | $5.99 for 10 nuts | <a href="https://shop.mikadousa.com/04803-Self-locking-nut-M2-_p_1274.html"> Link </a> |
+| M2.5 Nut | Used for securing the Arduino UNO | $0.46 per nut, 6 nuts | <a href="https://www.homedepot.com/b/Hardware-Fasteners-Nuts/M25/N-5yc1vZc2elZ1z0sfxi"> Link </a> |
+| M3 Nut | Used for securing the plates | $0.06 per nut, 12 nuts | <a href="https://www.amazon.com/M3-0-5-Nylon-Insert-Stainless-100pcs/dp/B0BHQMP9R8/ref=sr_1_1_sspa?keywords=M3%2Bnuts&qid=1688671503&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
+| M3 Self-locking Nut | Used for securing smaller plates | $0.07 per nut, 4 nuts | <a href="https://www.amazon.com/100Pcs-Stainless-Self-Lock-Inserted-Clinching/dp/B075ZZW7VL"> Link </a> |
+| M7 Thin Nut | Used for securing the potentiometers | $0.62 per nut, 4 nuts | <a href="https://www.homedepot.com/b/Hardware-Fasteners-Nuts/M7/N-5yc1vZc2elZ1z1bvfq"> Link </a> |
+| Spring Washer | Used for securing one of the claws | $0.08 per washer, 3 washers | <a href="https://www.amazon.com/FASTENER-TREE-Spring-Washers-Stainless/dp/B09W892MTD/ref=sr_1_2_sspa?crid=1NZ0XK458T0A1&keywords=small%2BSpring%2BWashers&qid=1688676564&sprefix=small%2Bspring%2Bwashers%2Caps%2C145&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
