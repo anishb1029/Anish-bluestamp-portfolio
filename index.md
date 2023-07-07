@@ -88,7 +88,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 | M3 Self-locking Nut | Used for securing smaller plates | $0.07 per nut, 4 nuts | <a href="https://www.amazon.com/100Pcs-Stainless-Self-Lock-Inserted-Clinching/dp/B075ZZW7VL"> Link </a> |
 | M7 Thin Nut | Used for securing the potentiometers | $0.62 per nut, 4 nuts | <a href="https://www.homedepot.com/b/Hardware-Fasteners-Nuts/M7/N-5yc1vZc2elZ1z1bvfq"> Link </a> |
 | Spring Washer | Used for securing one of the claws | $0.08 per washer, 3 washers | <a href="https://www.amazon.com/FASTENER-TREE-Spring-Washers-Stainless/dp/B09W892MTD/ref=sr_1_2_sspa?crid=1NZ0XK458T0A1&keywords=small%2BSpring%2BWashers&qid=1688676564&sprefix=small%2Bspring%2Bwashers%2Caps%2C145&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Metal Washer | Used for securing one of the claws | $0.25 per washer, 1 washer | <a href="https://www.homedepot.com/b/Hardware-Fasteners-Washers-Flat-Washers/N-5yc1vZc2ck"> Link </a> |
+| PVC Washer | Used as a lazy susan for the base of the arm | $2 per washer, 1 washer | <a href="https://www.minosaver.com/pvc-washer"> Link </a> |
+| Bearing | Used for securing one of the claws | $10 per bearing, 1 bearing | <a href="[https://www.homedepot.com/b/Hardware-Fasteners-Washers-Flat-Washers/N-5yc1vZc2ck](https://www.ebay.com/p/1349206302?iid=394354426952)"> Link </a> |
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
