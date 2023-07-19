@@ -31,10 +31,12 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
+My second milestone shows that I have completed my assembly and found out some other simple errors, like disorganized cables and how my base was unsturdy (the screw was too loose). I planned to make a lazy susan type foundation for my robotic arm, but the parts hadn't arrived yet, so I was stuck with the finished assembly and sample code. My goal for the third milestone is to find out what I can do to the code to better my project, and to add the mods needed to strengthen the base. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kgr2sArB4cU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # First Milestone
 
+My first milestone was building almost all of the 3 joint robotic arm and uploading the sample code to the Arduino UNO. Although this was a task I could have completed within the first 3 days, a broken servo motor set me back quite a bit. On top of that, my robotic arm was experiencing an extremely unsturdy base made me think about modifications to strengthen that part of the project. Overall, I thought of this as an awesome beginning to my robotic arm. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kQThEUMxvi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Schematics 
