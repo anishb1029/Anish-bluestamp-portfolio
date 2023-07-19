@@ -1,5 +1,5 @@
 # 3 Joint Robotic Arm with BSE
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+The 3 joint robotic arm, despite how simple it is to the eye, was a tough build because of all the challenges that I had to face to end up the the result that I currently have. Broken motors, faulty codes, and unstable bases have led me to the belief that this project was one of the more challenging ones of the level because of the modifications needed to make the arm as healthy as possible. 
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
