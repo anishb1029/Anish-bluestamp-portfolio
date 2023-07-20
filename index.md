@@ -1,12 +1,6 @@
 # 3 Joint Robotic Arm with BSE
 The 3 joint robotic arm, despite how simple it is to the eye, was a tough build because of all the challenges that I had to face to end up the the result that I currently have. Broken motors, faulty codes, and unstable bases have led me to the belief that this project was one of the more challenging ones of the level because of the modifications needed to make the arm as healthy as possible. 
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Anish B | Tesla Stem High | Computer Science | Incoming Freshman
