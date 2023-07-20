@@ -5,8 +5,6 @@ The 3 joint robotic arm, despite how simple it is to the eye, was a tough build 
 |:--:|:--:|:--:|:--:|
 | Anish B | Tesla Stem High | Computer Science | Incoming Freshman
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
 ![image](https://github.com/anishb1029/Anish-bluestamp-portfolio/assets/138526777/6ae93b9b-c191-4830-bcc4-0240843eb237)
 
   
