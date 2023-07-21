@@ -38,7 +38,6 @@ My first milestone was building almost all of the 3 joint robotic arm and upload
 ![image](https://github.com/anishb1029/Anish-bluestamp-portfolio/assets/138526777/6347cf3b-645a-4892-86f8-542131181dff)
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 Rollarm.ino
 #include <Servo.h> 
