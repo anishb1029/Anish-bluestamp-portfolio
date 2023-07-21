@@ -40,6 +40,231 @@ My first milestone was building almost all of the 3 joint robotic arm and upload
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
+Rollarm.ino
+#include <Servo.h> 
+
+Servo Servo_0;
+Servo Servo_1;
+Servo Servo_2;
+Servo Servo_3;
+
+int SensVal[4] = {0}; 
+
+int Joint0[50] = {0}; 
+int Joint1[50] = {0};
+int Joint2[50] = {0};
+int Joint3[50] = {0};
+
+int Dif0[50] = {0}; 
+int Dif1[50] = {0};
+int Dif2[50] = {0};
+int Dif3[50] = {0};
+
+int KeyValue = 0;
+int Time = 0;
+int M0 = 0, M1 = 0, M2 = 0, M3 = 0;
+
+void setup() 
+{
+  Serial.begin(9600);
+  
+  Servo_0.attach(4);
+  Servo_1.attach(5);
+  Servo_2.attach(6);
+  Servo_3.attach(7);
+
+  pinMode(3, INPUT);
+
+  ReadPot();
+  Mapping0();
+
+  M0 = SensVal[0];
+  M1 = SensVal[1];
+  M2 = SensVal[2];
+  M3 = SensVal[3];
+}
+
+void loop() 
+{
+ //Print the data.
+#ifdef DataPrint
+  while (1)
+  {
+    ReadPot();
+    Serial.print("SensVal[0]:");
+    Serial.println(SensVal[0]);
+    Serial.print("SensVal[1]:");
+    Serial.println(SensVal[1]);
+    Serial.print("SensVal[2]:");
+    Serial.println(SensVal[2]);
+    Serial.print("SensVal[3]:");
+    Serial.println(SensVal[3]);
+    delay(200);
+  }
+#endif
+
+  static int Flag = 1;
+  Button();
+
+  if ((KeyValue < 10) && (KeyValue > 0))
+  {
+    KeyValue = 0;
+    Record();
+    Mapping1(); 
+
+  else if (KeyValue > 10)
+  {
+    if (Flag == 1)
+    {
+      Flag = 0;
+      Calculate();
+    }
+    Drive_init();
+    delay(3000);
+    for (int i = 1; i < Time; i++)
+    {
+      Drive_repeat(i);
+      delay(500);
+    }
+  }
+
+  else
+  {
+    ReadPot();
+    Mapping0();
+    
+    if ((SensVal[0] - M0) >= 0)
+    {
+      for (; M0 <= SensVal[0]; M0++)
+      {
+        Servo_0.write(M0); delay(2);
+      }
+    }
+    else
+    {
+      for (; M0 > SensVal[0]; M0--)
+      {
+        Servo_0.write(M0);  delay(2);
+      }
+    }
+  
+    if ((SensVal[1] - M1) >= 0)
+    {
+      for (; M1 <= SensVal[1]; M1++)
+      {
+        Servo_1.write(M1);  delay(2);
+      }
+    }
+    else
+    {
+      for (; M1 > SensVal[1]; M1--)
+      {
+        Servo_1.write(M1);  delay(2);
+      }
+    }
+ 
+    if ((SensVal[2] - M2) >= 0)
+    {
+      for (; M2 <= SensVal[2]; M2++)
+      {
+        Servo_2.write(M2);  delay(2);
+      }
+    }
+    else
+    {
+      for (; M2 > SensVal[2]; M2--)
+      {
+        Servo_2.write(M2);  delay(2);
+      }
+    }
+    
+    if ((SensVal[3] - M3) >= 0)
+    {
+      for (; M3 <= SensVal[3]; M3++)
+      {
+        Servo_3.write(M3);  delay(2);
+      }
+    }
+    else
+    {
+      for (; M3 > SensVal[3]; M3--)
+      {
+        Servo_3.write(M3);  delay(2);
+      }
+    }
+ 
+    M0 = SensVal[0];
+    M1 = SensVal[1];
+    M2 = SensVal[2];
+    M3 = SensVal[3];
+    delay(10);
+  }
+}
+
+Rollarm.ino sets up all the motors and potentiometers so that they are ready to function properly. 
+
+Record.ino
+
+void Record()
+{
+  Joint0[Time] = analogRead(A0);
+  Joint1[Time] = analogRead(A1);
+  Joint2[Time] = analogRead(A2);
+  Joint3[Time] = analogRead(A3);
+}
+
+void ReadPot()
+{
+  SensVal[0] = 0;
+  SensVal[1] = 0;
+  SensVal[2] = 0;
+  SensVal[3] = 0;
+  
+  SensVal[0] = analogRead(A0);
+  SensVal[1] = analogRead(A1);
+  SensVal[2] = analogRead(A2);
+  SensVal[3] = analogRead(A3);
+}
+
+void Mapping0()
+{
+  SensVal[0] = map(SensVal[0], 0, 1023, 10, 170); 
+  SensVal[1] = map(SensVal[1], 0, 1023, 10, 170);
+  SensVal[2] = map(SensVal[2], 0, 1023, 10, 170); 
+  SensVal[3] = map(SensVal[3], 0, 1023, 100, 180);
+}
+
+void Mapping1()
+{
+  Joint0[Time] = map(Joint0[Time], 0, 1024, 0, 170); 
+  Joint1[Time] = map(Joint1[Time], 0, 1024, 0, 170); 
+  Joint2[Time] = map(Joint2[Time], 0, 1024, 0, 170); 
+  Joint3[Time] = map(Joint3[Time], 0, 1024, 100, 175); 
+  Time++;
+}
+
+void Calculate()
+{
+  for (int i = 0; i < Time; i++)
+  {
+    if (i == 0)
+    {
+      Dif0[0] = Joint0[0] - Joint0[Time - 1];         
+      Dif1[0] = Joint1[0] - Joint1[Time - 1];
+      Dif2[0] = Joint2[0] - Joint2[Time - 1];
+      Dif3[0] = Joint3[0] - Joint3[Time - 1];
+    }
+    else
+    {
+      Dif0[i] = Joint0[i] - Joint0[i - 1];
+      Dif1[i] = Joint1[i] - Joint1[i - 1];
+      Dif2[i] = Joint2[i] - Joint2[i - 1];
+      Dif3[i] = Joint3[i] - Joint3[i - 1];
+    }
+  }
+}
+
+Record.ino records the values of all the potentiometers and assigns them an amount of degrees that act as their range of movement. 
 
 # Bill of Materials
 
